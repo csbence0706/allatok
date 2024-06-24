@@ -73,8 +73,8 @@ namespace allatok
             get { return korHatar; }
             set { korHatar = value; }
         }
-    }
-    private static void AllatVerseny()
+    
+    public static void AllatVerseny()
     {
         Allat allat;
 
@@ -132,6 +132,7 @@ namespace allatok
             " \nösszpontszámuk: " + osszesPont + " pont," + "\nlegnagyobb pontszám: " + legtobbPont + "\nÁtlag pontszám: " + osszesPont / osszesVersenyzo);
 
     }
+}
 
 internal class Program
  {
